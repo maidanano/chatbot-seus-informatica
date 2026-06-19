@@ -1,20 +1,49 @@
 # Chatbot SEUS Informática
 
-Simulador de chatbot para atención inicial de consultas por WhatsApp en SEUS Informática.
+Simulador de chatbot para la atención inicial de consultas por WhatsApp en SEUS Informática.
+
+## Descripción
+
+Este proyecto fue desarrollado como parte del Trabajo Práctico Integrador de Organización Empresarial. El objetivo es simular una solución tecnológica para mejorar el proceso de atención inicial de consultas en un local de informática.
+
+El chatbot permite responder consultas frecuentes, consultar el estado de órdenes de servicio mediante una base de datos simulada y derivar al técnico del área cuando la consulta requiere intervención humana.
+
+## Alcance y metodología
+
+Este proyecto es una prueba preliminar del chatbot. No está integrado a WhatsApp real ni a una base de datos productiva, sino que simula el proceso mediante una aplicación por consola y archivos `.txt` con formato CSV.
+
+La metodología consiste en utilizar datos ficticios de órdenes de servicio para validar el comportamiento esperado: mostrar un menú, recibir datos del usuario, consultar órdenes, responder según el estado registrado y derivar al técnico del área cuando corresponde.
+
+Se espera que el sistema responda consultas simples, permita buscar órdenes por número o nombre, informe estados finales y registre derivaciones cuando la consulta requiera intervención humana.
 
 ## Objetivo
 
-Automatizar consultas frecuentes, consultar estados de órdenes de servicio y derivar al técnico del área cuando sea necesario.
+Automatizar parte de la atención inicial para reducir respuestas repetitivas, ordenar las consultas recibidas y mejorar la trazabilidad de los pedidos realizados por los clientes.
 
-## Ejecución
+## Funcionalidades principales
 
-Desde la carpeta principal del proyecto:
+- Menú interactivo por consola.
+- Consulta de estado de equipos por número de orden.
+- Búsqueda alternativa por nombre o apellido.
+- Respuestas automáticas para órdenes finalizadas.
+- Derivación al técnico para órdenes pendientes, cotizadas o aceptadas.
+- Registro de consultas realizadas.
+- Registro de avisos técnicos.
+- Manejo de errores y validaciones mediante `try/except`.
+- Uso de archivos `.txt` con formato CSV como base de datos simulada.
 
-```bash
-python main.py
-```
+## Estados de órdenes
 
-## Estructura
+El sistema trabaja con los siguientes estados:
+
+- `Pendiente`: requiere intervención del técnico.
+- `Cotizada`: requiere intervención del técnico.
+- `Aceptada`: requiere intervención del técnico.
+- `Lista`: permite informar que el equipo puede retirarse.
+- `No aceptado`: permite informar que el equipo puede retirarse sin costo.
+- `Sin solución`: permite informar que el equipo fue revisado y puede retirarse sin cargo.
+
+## Estructura del proyecto
 
 ```text
 chatbot-seus-informatica/
@@ -29,29 +58,7 @@ chatbot-seus-informatica/
 │   ├── validaciones.py
 │   ├── estados.py
 │   └── mensajes.py
-└── README.md
-```
-
-## Funcionalidades
-
-- Menú principal por consola.
-- Consulta de estado por número de orden.
-- Búsqueda alternativa por nombre o apellido.
-- Respuesta automática para estados finales.
-- Derivación al técnico para estados activos.
-- Registro de consultas y avisos en archivos TXT con formato CSV.
-- Manejo de errores mediante validaciones y bloques `try/except`.
-
-## Estados de órdenes
-
-Respuesta automática:
-
-- Lista
-- No aceptado
-- Sin solución
-
-Derivación al técnico:
-
-- Pendiente
-- Cotizada
-- Aceptada
+├── docs/
+│   └── diccionario_datos.md
+├── README.md
+└── .gitignore
