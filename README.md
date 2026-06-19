@@ -58,6 +58,10 @@ chatbot-seus-informatica/
 │   ├── validaciones.py
 │   ├── estados.py
 │   └── mensajes.py
+├── docs/
+│   └── diccionario_datos.md
+├── README.md
+└── .gitignore
 ```
 
 ## Descripción de archivos
