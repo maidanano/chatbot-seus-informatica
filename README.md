@@ -70,7 +70,9 @@ mensajes.py: centraliza los mensajes mostrados por el chatbot.
 ordenes.txt: base de datos simulada con órdenes ficticias.
 consultas.txt: registro de consultas realizadas.
 avisos_tecnicos.txt: registro de derivaciones al técnico del área.
-Cómo ejecutar el proyecto
+
+
+## Cómo ejecutar el proyecto
 Descargar o clonar el repositorio.
 Abrir la carpeta del proyecto en Visual Studio Code.
 Ejecutar el archivo principal desde la terminal:
@@ -79,7 +81,9 @@ python main.py
 En caso de usar Windows y que el comando anterior no funcione, probar con:
 
 py main.py
-Uso del sistema
+
+
+## Uso del sistema
 
 Al ejecutar el programa, el chatbot muestra un menú principal con distintas opciones de consulta. El usuario debe ingresar el número correspondiente a la opción deseada.
 
@@ -87,20 +91,18 @@ Si elige la opción 1, podrá consultar el estado de un equipo ingresando el nú
 
 Las consultas realizadas y las derivaciones se guardan en los archivos consultas.txt y avisos_tecnicos.txt, permitiendo dejar registro de la interacción.
 
-##Datos simulados
+## Datos simulados
 
 El archivo ordenes.txt contiene datos ficticios de clientes y órdenes de servicio. Estos datos se utilizan únicamente para probar el funcionamiento del chatbot y no corresponden a clientes reales.
+
 
 ## Relación con el proceso BPMN
 
 El chatbot representa el proceso TO-BE propuesto en el informe. La lógica del programa se basa en el flujo modelado con BPMN 2.0, donde el sistema actúa como primer filtro de atención, responde consultas simples y deriva al técnico cuando corresponde.
+
 
 ## Autor
 
 Mariano Maidana
 Tecnicatura Universitaria en Programación
 Organización Empresarial
-├── docs/
-│   └── diccionario_datos.md
-├── README.md
-└── .gitignore
