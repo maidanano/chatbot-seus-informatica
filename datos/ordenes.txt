@@ -1,0 +1,9 @@
+orden,cliente,telefono,equipo,falla,estado,tecnico_asignado
+1020,Mariano Messi,3584000001,Notebook,No enciende,Cotizada,Computadoras
+1021,Juan Pérez,3584000002,Impresora,No imprime,Lista,Impresoras
+1022,Ana Gómez,3584000003,CPU,Se reinicia,Pendiente,Computadoras
+1023,Ana Gómez,3584000003,Notebook,Problema de disco,Aceptada,Computadoras
+1024,Carlos Ruiz,3584000004,Televisor,Sin imagen,Sin solución,Electrónica
+1025,Sofía López,3584000005,Impresora,Líneas en impresión,No aceptado,Impresoras
+1026,Pedro Díaz,3584000006,Cargador,No carga,Pendiente,Computadoras
+1027,Laura Fernández,3584000007,Notebook,Lenta,Lista,Computadoras

@@ -1,0 +1,9 @@
+fecha,cliente,orden,equipo,motivo,tecnico_asignado
+2026-06-19 01:08:32,Mariano Messi,1020,Notebook,Orden en estado Cotizada,Computadoras
+2026-06-19 01:09:13,Sin identificar,,,Consulta por insumo: CARTUCHO TONER PARA LA BROTHER 1060,Atención / ventas
+2026-06-19 01:09:29,Sin identificar,,,Asistencia remota: INSTALACION DEL PQUETE OFFICE,Computadoras
+2026-06-19 18:48,Mariano Messi,1020,Notebook,Orden en estado Cotizada,Computadoras
+2026-06-19 18:49,Mariano Messi,1020,Notebook,Orden en estado Cotizada,Computadoras
+2026-06-19 18:51,Sin identificar,,,Consulta por insumo: auricular,Atención / ventas
+2026-06-19 18:51,Nano,,,Pedido para hablar con técnico,Técnico del área
+2026-06-19 18:53,Pipo,,,Pedido para hablar con técnico,Técnico del área
