@@ -80,8 +80,7 @@ def registrar_consulta(cliente, tipo_consulta, dato_ingresado, resultado):
                 "resultado": resultado
             })
 
-            print("Enviando consulta al técnico.... Gracias por tu paciencia!")
-
+            
     except Exception as error:
         print(f"No se pudo registrar la consulta: {error}")
 
