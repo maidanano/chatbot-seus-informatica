@@ -108,6 +108,13 @@ El archivo `ordenes.txt` contiene datos ficticios de clientes y órdenes de serv
 
 El chatbot representa el proceso TO-BE propuesto en el informe. La lógica del programa se basa en el flujo modelado con BPMN 2.0, donde el sistema actúa como primer filtro de atención, responde consultas simples y deriva al técnico cuando corresponde.
 
+## Video Explicativo de uso
+
+https://www.youtube.com/watch?v=OuLkco2RxjU
+
+El video muestra una prueba preliminar del sistema, incluyendo la ejecución del programa por consola, el uso del menú principal, la consulta de estados de órdenes de servicio y el registro de consultas o avisos técnicos en archivos de texto.
+
+
 ## Autor
 
 Mariano Maidana  
