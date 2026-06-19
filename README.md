@@ -58,8 +58,9 @@ chatbot-seus-informatica/
 │   ├── validaciones.py
 │   ├── estados.py
 │   └── mensajes.py
+```
 
-Descripción de archivos
+## Descripción de archivos
 main.py: archivo principal del programa.
 bot.py: contiene el flujo principal del chatbot.
 base_datos.py: gestiona la lectura y escritura de archivos.
@@ -86,15 +87,15 @@ Si elige la opción 1, podrá consultar el estado de un equipo ingresando el nú
 
 Las consultas realizadas y las derivaciones se guardan en los archivos consultas.txt y avisos_tecnicos.txt, permitiendo dejar registro de la interacción.
 
-Datos simulados
+##Datos simulados
 
 El archivo ordenes.txt contiene datos ficticios de clientes y órdenes de servicio. Estos datos se utilizan únicamente para probar el funcionamiento del chatbot y no corresponden a clientes reales.
 
-Relación con el proceso BPMN
+##Relación con el proceso BPMN
 
 El chatbot representa el proceso TO-BE propuesto en el informe. La lógica del programa se basa en el flujo modelado con BPMN 2.0, donde el sistema actúa como primer filtro de atención, responde consultas simples y deriva al técnico cuando corresponde.
 
-Autor
+##Autor
 
 Mariano Maidana
 Tecnicatura Universitaria en Programación
