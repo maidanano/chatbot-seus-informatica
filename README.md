@@ -1,10 +1,10 @@
 # Chatbot SEUS Informática
 
-Simulador de chatbot para la atención inicial de consultas por WhatsApp en SEUS Informática.
+Simulador de chatbot para la atención inicial de consultas por WhatsApp en SEUS Informática (un local de servicios técnico).
 
 ## Descripción
 
-Este proyecto fue desarrollado como parte del Trabajo Práctico Integrador de Organización Empresarial. El objetivo es simular una solución tecnológica para mejorar el proceso de atención inicial de consultas en un local de informática.
+Este proyecto fue desarrollado como parte del Trabajo Práctico Integrador de la materia Organización Empresarial de la Universidad Tecnológica Nacional. El objetivo es simular una solución tecnológica para mejorar el proceso de atención inicial de consultas en un local de informática.
 
 El chatbot permite responder consultas frecuentes, consultar el estado de órdenes de servicio mediante una base de datos simulada y derivar al técnico del área cuando la consulta requiere intervención humana.
 
@@ -18,7 +18,7 @@ Se espera que el sistema responda consultas simples, permita buscar órdenes por
 
 ## Objetivo
 
-Automatizar parte de la atención inicial para reducir respuestas repetitivas, ordenar las consultas recibidas y mejorar la trazabilidad de los pedidos realizados por los clientes.
+Automatizar parte de la atención inicial para reducir respuestas repetitivas, ordenar las consultas recibidas y mejorar la trazabilidad de los pedidos realizados por los clientes. De esta manera se libera tiempo del técnico para poder realizar otras actividades.
 
 ## Funcionalidades principales
 
