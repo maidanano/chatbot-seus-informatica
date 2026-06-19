@@ -91,11 +91,11 @@ Las consultas realizadas y las derivaciones se guardan en los archivos consultas
 
 El archivo ordenes.txt contiene datos ficticios de clientes y órdenes de servicio. Estos datos se utilizan únicamente para probar el funcionamiento del chatbot y no corresponden a clientes reales.
 
-##Relación con el proceso BPMN
+## Relación con el proceso BPMN
 
 El chatbot representa el proceso TO-BE propuesto en el informe. La lógica del programa se basa en el flujo modelado con BPMN 2.0, donde el sistema actúa como primer filtro de atención, responde consultas simples y deriva al técnico cuando corresponde.
 
-##Autor
+## Autor
 
 Mariano Maidana
 Tecnicatura Universitaria en Programación
