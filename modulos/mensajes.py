@@ -5,7 +5,7 @@ def mostrar_bienvenida():
     print("\n----------------------------------------")
     print("CHATBOT SEUS INFORMÁTICA")
     print("----------------------------------------")
-    print("Hola, soy Rango,el asistente virtual de SEUS Informática.")
+    print("Hola, soy Rango, el asistente virtual de SEUS Informática.")
 
 
 def mostrar_menu():
@@ -41,7 +41,7 @@ def mensaje_estado(orden):
     if estado == "Sin solución":
         return (
             f"La orden {orden_numero}, correspondiente a {equipo}, figura como SIN SOLUCIÓN.\n"
-            "El equipo fue revisado, pero no pudo resolverse la falla. Puede pasar a retirarlo por nuestro sin cargo en nuestros horarios de  atención. Gracias!"
+            "El equipo fue revisado, pero no pudo resolverse la falla. Puede pasar a retirarlo por nuestro local sin cargo en nuestros horarios de atención. Gracias!"
         )
 
     if estado == "Pendiente":
@@ -63,7 +63,7 @@ def mensaje_estado(orden):
             "Un técnico del área se comunicará a la brevedad para informarte los detalles y novedades de tu equipo. Gracias!"
         )
 
-    return "No pude interpretar el estado de la orden solicitada. derivaré la consulta al técnico del área.\n" \
+    return "No pude interpretar el estado de la orden solicitada. Derivaré la consulta al técnico del área.\n" \
     "Un técnico del área se comunicará a la brevedad para informarte los detalles y novedades de tu equipo. Gracias!"
 
 
@@ -83,13 +83,13 @@ def mensaje_varias_ordenes():
 
 #Mensaje para consultas sobre horarios y dirección del local.
 def mensaje_horarios():
-    return "Atendemos de lunes a viernes de 8:00 a 12:30 hs y de 16:00 a 20:00 hs. Estamos en Maipú 1113.\n Gracias por consultar!"
+    return "Atendemos de lunes a viernes de 8:00 a 12:30 hs y de 16:00 a 20:00 hs. Estamos en Maipú 1113.\nGracias por consultar!"
 
 #Mensaje para consultas sobre reparaciones de equipos.
 def mensaje_reparaciones():
     return (
         "Realizamos servicio técnico de computadoras, notebooks, impresoras, televisores, cargadores "
-        "y otros equipos electrónicos. Podés acercar el equipo al local para una revisión y presupuesto sin cargo."
+        "y otros equipos electrónicos. Podés acercar el equipo al local para una revisión y presupuesto sin cargo.\n"
         "Gracias por consultar!"
     )
 
@@ -102,4 +102,4 @@ def mensaje_toner():
 
 #Mensaje para consultas sobre insumos.
 def mensaje_derivacion():
-    return "Registré tu consulta. Una persona del local se comunicará a la brevedad para brindarte más detalles. Gracias por consultar!"
+    return "Registré tu consulta. Una persona del local se comunicará a la brevedad para brindarte más detalles.\nGracias por consultar!"
